@@ -3,8 +3,8 @@ class MyProduct {
   final String id;
   final String name;
   final String cost;
-  // final String img;
+  final String img;
 
-  MyProduct({required this.id ,required this.name,required this.cost});
+  MyProduct({required this.id ,required this.name,required this.cost,required this.img});
 
 }
